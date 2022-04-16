@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/ui1_main_bg"
+    tools:context=".FormActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbarSize="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:hint="Enter Your Name"
+                android:inputType="text"
+                android:maxLength="20"
+                android:padding="15dp" />
+            <EditText
+                android:id="@+id/number1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:maxLength="10"
+                android:digits="0123456789"
+                android:hint="mobile_number"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:inputType="phone"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="start"
+                android:text="please_rate_us"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/excellentid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_selector"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center|start|end"
+                    android:shadowColor="#4C4C4C"
+                    android:text="excellent"
+                    android:textColor="@drawable/text_color"
+                    android:textColorHighlight="#FF0000"
+                    android:textColorHint="#BD00FF"
+                    android:textColorLink="#F7FF00"
+                    android:textCursorDrawable="@drawable/radio_normal"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/googid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_selector"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center|start|end"
+                    android:shadowColor="#4C4C4C"
+                    android:text="good"
+                    android:textColor="@drawable/text_color"
+                    android:textCursorDrawable="@drawable/ui1"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/averageid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_selector"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center|start|end"
+                    android:shadowColor="#4C4C4C"
+                    android:text="average"
+
+                    android:textColor="@drawable/text_color"
+                    android:textCursorDrawable="@color/purple_500"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/poorid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_selector"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center|start|end"
+                    android:shadowColor="#4C4C4C"
+                    android:text="poor"
+                    android:textColor="@drawable/text_color"
+                    android:textColorLink="#FF0000"
+                    android:textCursorDrawable="@drawable/ui1"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/worstid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_selector"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center|start|end"
+                    android:shadowColor="#4C4C4C"
+                    android:text="worst"
+                    android:textColor="@drawable/text_color"
+                    android:textCursorDrawable="@drawable/ui1"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/anysuggestion"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint="any_suggestions"
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ui1"
+
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="submit"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+android:padding="30dp"
+    android:background="@drawable/ui30"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".showofflinedata">
+
+    <TextView
+        android:id="@+id/showd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/ui8"
+        android:fontFamily="@font/poppins_semibold"
+
+        android:gravity="center"
+        android:padding="15dp"
+        android:scrollbarSize="0dp"
+        android:text="show data"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/iddelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Enter ID Number"
+        android:inputType="textPersonName"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/deletedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/ui9"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:scrollbarSize="0dp"
+        android:text="delete data"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/deletealldata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+
+        android:background="@drawable/ui9"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="delete all data"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selected_language">English</string>
+    <string name="app_name">Feedbacktestingapp</string>
+    <string name="langtitle">Please Select Your Language</string>
+    <string name="normaltext">normalText</string>
+</resources>

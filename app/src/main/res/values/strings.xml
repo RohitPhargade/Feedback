@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Feedbacktestingapp</string>
+    <string name="fetch_remote_welcome_message" translatable="false">fetch remote welcome</string>
+    <string name="langtitle">Please Select Your Language</string>
+    <string name="normaltext">normalText</string>
+    <string name="selected_language">English</string>
+</resources>

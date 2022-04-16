@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ui1_login_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".loginactivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingBottom="10dp"
+        app:srcCompat="@drawable/user_icon" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/btnmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/ui_login_border"
+                android:backgroundTint="@color/white"
+               android:textColor="#00162C"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:hint="User Email"
+                android:inputType="textEmailAddress"
+                android:letterSpacing="0.01"
+                android:padding="15dp"
+                android:textColorHint="#A80E98C9"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/btnpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/ui_login_border"
+                android:backgroundTint="@color/white"
+                android:textColor="#00162C"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:letterSpacing="0.01"
+                android:padding="15dp"
+                android:textColorHint="#A80E98C9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+
+                android:layout_marginRight="30dp"
+                android:background="@drawable/ui5"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="11dp"
+                android:text="Online data"
+                android:textAlignment="center"
+                android:textSize="18sp"
+
+                app:cornerRadius="30dp" />
+
+            <TextView
+                android:id="@+id/offdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="#0055FF"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="11dp"
+
+                android:text="Offline data"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+
+                app:cornerRadius="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/forgotPswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:fontFamily="sans-serif"
+        android:gravity="center|top"
+        android:padding="8dp"
+        android:text="Forgot Password?"
+        android:textColor="#00306A"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
+
+
+
